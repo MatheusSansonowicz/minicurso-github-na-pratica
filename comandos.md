@@ -10,7 +10,7 @@ ex: git checkout -b nova-branch
 ##Clonar branch e ficar na atual
 ex: git none -b nova-branch
 
-##Ver status
+##Ver status e atualizações
 git status
 
 ##ver branchs
@@ -20,3 +20,8 @@ git branch
 criar um arquivo chamado ".gitignore"
 adicionar o nome do arquivo indesejado ao mesmo
 
+##preparar o arquivo para commit
+git add "nome do arquivo"
+git add .gitignore
+
+##fazendo um commit
